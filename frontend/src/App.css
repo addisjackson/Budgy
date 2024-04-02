@@ -1,0 +1,133 @@
+.header {
+    text-align: center;
+    font-family: cursive; /* Set font to cursive */
+    color: red; /* Set color to red */
+    text-decoration: underline; /* Underline text */
+  }
+  
+  /* Add more styles as needed */
+  
+  .edit-expense-form {
+    max-width: 400px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding around the form */
+  }
+  
+  .edit-expense-form div {
+    margin-bottom: 20px; /* Add bottom margin for each line */
+  }
+  
+  .edit-expense-form label {
+    display: block; /* Make labels display block */
+    margin-bottom: 5px; /* Add bottom margin for labels */
+  }
+  
+  .edit-expense-form button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+
+  .cancel-edit {
+    margin-left: 20px;
+  }
+
+  .edit-expense-form button {
+    margin-right: 20px; /* Add 20px of space between buttons */
+    background-color: red; /* Set button background color to red */
+    color: white; /* Set button text color to white */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding to the buttons */
+    cursor: pointer; /* Add cursor pointer on hover */
+  }
+  
+  /* Style for the save button */
+  .edit-expense-form .save-edit {
+    margin-right: 20px; /* Add 20px of space between buttons */
+  }
+  
+  /* Style for the cancel button */
+  .edit-expense-form .cancel-edit {
+    background-color: red; /* Set cancel button background color to red */
+  }
+  
+  .highlight {
+    background-color: yellow; /* Set the background color to highlight the matched terms */
+  }
+  
+  .canvas-container {
+    max-width: 400px; /* Adjust the width as needed */
+  }
+
+  .edit-budget-form {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .edit-budget-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    width: 30%; /* Adjust the width of labels as needed */
+  }
+  
+  input[type="number"],
+  select {
+    width: 30%; /* Adjust the width of inputs as needed */
+  }
+  
+  .expenses-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .expense-heading {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .expense-row-heading th {
+    background-color: #f0f0f0;
+  }
+  
+  .expense-row {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .expense-row td {
+    padding: 10px;
+  }
+  
+  .expense-save,
+  .expense-cancel {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px; /* Adjust the gap between buttons as needed */
+  }
+  
+  .expense-save:hover,
+  .expense-cancel:hover {
+    opacity: 0.8;
+  }
+  
