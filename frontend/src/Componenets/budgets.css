@@ -1,0 +1,125 @@
+.budgets {
+    width: 100%;
+    padding: 20px 0;
+  }
+  
+  .budget-detail {
+    margin-bottom: 20px;
+    border-bottom: solid 10px black;
+    padding-bottom: 20px;
+  }
+  
+  .budget-detail-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .category {
+    text-align: center;
+  }
+  
+  
+.main-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .expenses-container {
+    width: 40%;
+  }
+  
+  .pie-chart-container {
+    width: 60%;
+  }
+  
+  .expense-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .expenses-container tr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Adjust the PieChart size */
+  .PieChart {
+    width: 100%;
+    height: auto;
+  }
+  
+  .expenses-container th,
+  .expenses-container td {
+    text-align: center;
+  }
+  
+  .expense-row:nth-child(even) {
+    background-color: rgba(246, 12, 230, 0.8); /* Light gray background color for even rows */
+  }
+  
+  .expense-row:nth-child(odd) {
+    background-color: rgba(252, 121, 34, 0.8); /* Lighter gray background color for odd rows */
+  }
+  
+  .expense-header {
+    text-align: center;
+  }
+  
+  .pie-chart-header {
+    text-align: center;
+  }
+  
+ 
+  
+  .pie-chart-heading {
+    text-align: center;
+  }
+  
+  .pie-chart {
+    /* Adjust the styles for the PieChart component as needed */
+  }
+  
+
+  
+  .expense-container th,
+  .expense-container td {
+    width: 25%; /* Adjust column width as needed */
+    text-align: center; /* Center-align column values */
+    padding: 8px;
+  }
+  
+  .expense-container th.delete,
+  .expense-container td.delete {
+    width: 10%; /* Adjust column width for delete button */
+  }
+  
+  .expense-container th.edit,
+  .expense-container td.edit {
+    width: 10%; /* Adjust column width for edit button */
+  }
+  
+  .expense-container th:first-child,
+  .expense-container td:first-child {
+    width: 5%; /* Adjust column width for first column */
+  }
+  
+  .expense-container td:first-child {
+    text-align: left; /* Left-align expense description */
+  }
+  
+  .expense-container th:last-child,
+  .expense-container td:last-child {
+    width: 15%; /* Adjust column width for last column */
+  }
+  
+  .expense-heading {
+    text-align: center;
+  }
+
+  .search {
+    width: 70%; /* Set SearchExpense component width to 70% of the page */
+    margin-left: 40px; /* Center the SearchExpense component horizontally */
+    align-self: center;
+  }

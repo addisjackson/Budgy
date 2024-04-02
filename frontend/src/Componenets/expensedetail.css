@@ -1,0 +1,39 @@
+/* expensedetail.css */
+
+.expense-detail {
+    width: 80%; /* Set the width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding for better appearance */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  }
+  
+  .expense-header {
+    text-align: center; /* Center the header text */
+    margin-bottom: 20px; /* Add some space below the header */
+  }
+  
+  .expense-detail p {
+    margin-bottom: 10px;
+    text-align: center; /* Add space between paragraphs */
+  }
+  
+  .expense-detail button {
+    margin-top: 20px; /* Add space above buttons */
+    align-content: center;
+  }
+
+.expense-detail {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .expense-detail:nth-child(even) {
+    background-color: rgba(246, 12, 230, 0.8);
+  }
+  
+  .expense-detail:nth-child(odd) {
+    background-color: rgba(252, 121, 34, 0.8);
+  }
+  
